@@ -4,6 +4,21 @@
     {
         static void Main(string[] args)
         {
+            int num1 = 5;
+            //int num2 = 3;
+            int num3;
+
+            //unary operators
+            num3 = -num1;
+            Console.WriteLine("num3 is {0} " + num3);
+
+
+            bool isSunny = true;
+            Console.WriteLine("Is it sunny? {0}", !isSunny);
+
+
+
+
             //Console.WriteLine("Please enter a number: ");
             //string userInput = Console.ReadLine();
             //try
@@ -27,20 +42,19 @@
             //{
             //    Console.WriteLine("this is called anyways");
             //}
-            int num1 = 5;
-            int num2 = 0;
-            int result;
+            //int num1 = 5;
+            //int num2 = 0;
+            //int result;
 
 
-            try
-            {
-                result = num1 / num2;
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("can't divide by zero!!");
-            }
-            Console.ReadKey();
+            //try
+            //{
+            //    result = num1 / num2;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("can't divide by zero!!");
+            //}
         }
     }
 }
